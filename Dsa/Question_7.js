@@ -21,9 +21,6 @@ for(let i = 0 ; i < arr.length ; i++){
 console.log(count2)
 
 // updated approch
-let arr = [1, 1, 1, 0, 1, 1, 1, 1];
-let count1 = 0;
-let count2 = 0;
 
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 1) {
